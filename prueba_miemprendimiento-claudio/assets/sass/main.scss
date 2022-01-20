@@ -1,0 +1,41 @@
+//main.scss Archivo Manifiesto
+
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/animation";
+
+//vendors
+
+//base
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+//layout
+@import "layout/navigathion";
+@import "layout/header";
+@import "layout/mainsection";
+@import "layout/asidesection";
+@import "layout/footer";
+
+//components
+@import "components/buttons";
+@import "components/icon";
+//pages
+//themes
+
+//para compilar
+//sass --watch assets/sass/main.scss:assets/css/main.css  
+
+//para subir a git
+// echo "# miemprendimiento" >> README.md
+//git init
+//git add README.md
+//git commit -m "first commit"
+//git branch -M main
+//git remote add origin https://github.com/R4ngak/miemprendimiento.git  <--- Respositorio de destino
+//git push -u origin main
+
+
+

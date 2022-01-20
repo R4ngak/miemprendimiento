@@ -1,0 +1,24 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes translate {
+    0% {
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.gearint, .gearext{
+    animation: rotate 3s infinite linear;
+    transform-origin: 80% 80%;
+}
+.code{
+    animation: translate 2s infinite linear alternate;
+}

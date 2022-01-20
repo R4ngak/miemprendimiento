@@ -1,0 +1,22 @@
+.aside{
+    max-width: 48%;
+    height: 100%;
+    box-sizing: border-box;
+    float: right;
+    margin: 0 1rem;
+    border: 1px solid $black;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    &__image2{
+        display: flex;
+        margin: 20px auto;
+     
+
+    }
+}
+h3{
+    color: $white;
+    text-align: center;
+    background-color: $sable;
+}

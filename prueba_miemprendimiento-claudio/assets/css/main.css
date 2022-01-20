@@ -1,0 +1,254 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes translate {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.gearint, .gearext {
+  animation: rotate 3s infinite linear;
+  transform-origin: 80% 80%;
+}
+
+.code {
+  animation: translate 2s infinite linear alternate;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p, h1, h2, h3 {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 5px;
+}
+
+p {
+  text-align: justify;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #000000;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.navbar__logo img {
+  width: 60px;
+  height: 60px;
+}
+.navbar__container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.navbar__list {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: small;
+  font-weight: 400;
+  color: white;
+}
+.navbar a:hover {
+  color: #FFAF6D;
+}
+
+.header {
+  background-color: #FFF;
+  width: 70vw;
+  margin: 0 auto;
+}
+.header__image {
+  width: 100%;
+  z-index: -9999;
+}
+
+.articles {
+  max-width: 48%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  border: 1px solid #000000;
+  margin: 0 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.articles__article1, .articles__article2 {
+  border: 1px groove #000000;
+  margin: 1rem 1rem;
+  padding: 20px;
+}
+
+.aside {
+  max-width: 48%;
+  height: 100%;
+  box-sizing: border-box;
+  float: right;
+  margin: 0 1rem;
+  border: 1px solid #000000;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.aside__image2 {
+  display: flex;
+  margin: 20px auto;
+}
+
+h3 {
+  color: #FFF;
+  text-align: center;
+  background-color: #060606;
+}
+
+.footer {
+  padding: 3rem;
+  width: 100%;
+  background-color: #000000;
+  font-family: "Ubuntu", sans-serif;
+  height: 60px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  clear: both;
+}
+.footer__copyright {
+  color: #FFF;
+}
+.footer__copyright:hover {
+  color: #FFAF6D;
+}
+.footer__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+.footer__item {
+  font-size: 14px;
+  margin: 0 20px;
+}
+.footer__item a {
+  text-decoration: none;
+  color: white;
+}
+.footer__item a:hover {
+  color: #FFAF6D;
+}
+.footer__form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: #FFAF6D;
+  color: #000000;
+  border-color: #FFF;
+  font-family: "Ubuntu", sans-serif;
+}
+
+input {
+  border-radius: 3px;
+  font-size: 16px;
+  color: #000000;
+  border-color: #FFF;
+  font-family: "Ubuntu", sans-serif;
+}
+
+i {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
